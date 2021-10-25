@@ -67,7 +67,7 @@ class ElectricCar(Car):
 my_tesla = ElectricCar('tesla','model s',2021)
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()
-my_tesla.battery.get_range()
+my_tesla.battery.get_range() #通过属性调用类的方法
 
 from car import Car,ElectricCar   #从一个模板中导入多个类，在一个模板中导入另一个模板
 my_new_car = Car('bwm','a4',2021) #直接使用模板的类

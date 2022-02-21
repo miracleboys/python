@@ -27,6 +27,7 @@ class Ship():
         self.moving_left = False
 
 
+
     def update(self):
         #更新飞船的center值
         if self.moving_right and self.rect.right < self.screen_rect.right:
